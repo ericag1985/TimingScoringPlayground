@@ -1,0 +1,76 @@
+<form role="form">
+  <div class="form-group">
+    <label for="racer_name" class="control-label">Racer Name</label>
+    <input type="text" ng-model="racer.racer_name" class="form-control" id="racer_name" placeholder="Enter Racer Name">
+  </div>
+  <div class="form-group">
+    <label for="racer_class" class="control-label">Racer Class</label>
+    <input type="text" ng-model="racer.racer_class" class="form-control" id="racer_class" placeholder="Enter Racer Class">
+  </div>
+  <div class="form-group">
+    <label for="racer_points" class="control-label">Racer Points</label>
+    <input type="number" ng-model="racer.racer_points" class="form-control" id="racer_points" placeholder="Enter Racer Points">
+  </div>
+  <div class="car_number">
+    <label for="car_number" class="control-label">Car Number</label>
+    <input type="number" ng-model="racer.car_number" class="form-control" id="car_number" placeholder="Enter Car Number">
+  </div>
+  <div class="form-group">
+    <label for="car_make" class="control-label">Car Make</label>
+    <input type="text" ng-model="racer.car_make" class="form-control" id="car_make" placeholder="Enter Car Make">
+  </div>
+  <div class="form-group">
+    <label for="car_model" class="control-label">Car Model</label>
+    <input type="text" ng-model="racer.car_model" class="form-control" id="car_model" placeholder="Enter Car Model">
+  </div>
+  <div class="car_year">
+    <label for="car_color" class="control-label">Car Color</label>
+    <input type="text" ng-model="racer.car_color" class="form-control" id="car_color" placeholder="Enter Car Color">
+  </div>
+  <div class="car_year">
+    <label for="car_year" class="control-label">Car Year</label>
+    <input type="number" ng-model="racer.car_year" class="form-control" id="car_year" placeholder="Enter Color Year">
+  </div>
+  <div class="form-group">
+    <label for="city" class="control-label">City</label>
+    <input type="text" ng-model="racer.city" class="form-control" id="city" placeholder="Enter City">
+  </div>
+  <div class="form-group">
+    <label for="state" class="control-label">State</label>
+    <input type="text" ng-model="racer.state" class="form-control" id="state" placeholder="Enter State">
+  </div>
+  <div class="form-group">
+    <label for="sponsor" class="control-label">Sponsor</label>
+    <input type="text" ng-model="racer.sponsor" class="form-control" id="sponsor" placeholder="Enter Sponsor">
+  </div>
+  <div class="form-group">
+    <label for="track_name" class="control-label">Track Name</label>
+    <input type="text" ng-model="racer.track_name" class="form-control" id="track_name" placeholder="Enter Track Name">
+  </div>
+  <div class="form-group">
+    <label for="best_lap_pos" class="control-label">Best Lap Pos</label>
+    <input type="number" ng-model="racer.best_lap_pos" class="form-control" id="best_lap_pos" placeholder="Enter Best Lap Pos">
+  </div>
+  <div class="form-group">
+    <label for="best_lap_pic" class="control-label">Best Lap Pic</label>
+    <input type="text" ng-model="racer.best_lap_pic" class="form-control" id="best_lap_pic" placeholder="Enter Best Lap Pic">
+  </div>
+  <div class="form-group">
+    <label for="best_lap_date" class="control-label">Best Lap Date</label>
+    <input type="text" ng-model="racer.best_lap_date" class="form-control" id="best_lap_date" placeholder="Enter Best Lap Date">
+  </div>
+  <div class="form-group">
+    <label for="total_laps" class="control-label">Total Laps</label>
+    <input type="number" ng-model="racer.total_laps" class="form-control" id="total_laps" placeholder="Enter Total Laps">
+  </div>
+  <div class="form-group">
+    <label for="time_gap" class="control-label">Time Gap</label>
+    <input type="number" ng-model="racer.time_gap" class="form-control" id="time_gap" placeholder="Enter Time Gap">
+  </div>
+  <div class="form-group">
+    <label for="time_dif" class="control-label">Time Dif</label>
+    <input type="text" ng-model="racer.time_dif" class="form-control" id="time_dif" placeholder="Enter Time Dif">
+  </div>
+
+  <input type="submit" class="btn btn-primary" ng-click="saveRacer()" value="Save">
+</form>
