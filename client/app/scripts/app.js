@@ -39,11 +39,6 @@ angular
         templateUrl: 'views/racer-edit.html',
         controller: 'RacerEditCtrl'
       })
-      .when('/racer-search', {
-        templateUrl: 'views/racer-search.html',
-        controller: 'RacerSearchCtrl',
-        controllerAs: 'racerSearch'
-      })
       .otherwise({
         redirectTo: '/'
       });
